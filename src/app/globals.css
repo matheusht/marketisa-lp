@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    :root {
+
+    }
+
+    .dark {
+       
+    }
+
+    * {
+        @apply scroll-smooth antialiased ;
+        scrollbar-width: none !important;
+    }
+
+    body {
+        @apply font-primary bg-primary text-white leading-loose;
+    }
+}
+
