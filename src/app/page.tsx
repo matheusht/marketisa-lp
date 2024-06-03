@@ -9,7 +9,7 @@ export default function Home() {
       <div className="container mx-auto h-full">
         <div className="flex flex-col xl:flex-row items-center justify-between xl:pt-8 xl:pb-24">
           {/* text */}
-          <div className="text-center xl:text-left">
+          <div className="text-center xl:text-left order-2 xl:order-none">
             <span className="text-xl">Marketing</span>
             <h1 className="h1 mb-6">
               Hello Im <br /> <span className="text-accent">Marketisa</span>
@@ -36,7 +36,7 @@ export default function Home() {
             </div>
           </div>
           <div>{/* photo */}</div>
-          <div>
+          <div className="order-1 xl:order-none mb-8 xl:mb-0">
             <Photo />
           </div>
         </div>
