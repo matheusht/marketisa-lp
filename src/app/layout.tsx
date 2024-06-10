@@ -23,7 +23,7 @@ export default function RootLayout({
 }>) {
   return (
     <html>
-      <body className={inter.variable}>
+      <body className={`${inter.variable} scroll-smooth`}>
         <Header />
         <StairTransition />
         <PageTransition>{children}</PageTransition>

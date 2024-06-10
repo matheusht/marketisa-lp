@@ -36,7 +36,7 @@ const MarketisaLogo: FC<{ width: number }> = ({ width }) => (
         xlinkHref="#gradient1"
       />
     </defs>
-    <title>MARKETISA Logo - Simbolo - Cor2 - Fundo Claro</title>
+    <title>MARKETISA</title>
     <path
       fill="#3362f1"
       d="M392.75,261.93,173.25,526.39a43.31,43.31,0,0,0-10,27.66V730a11.38,11.38,0,0,0,20.14,7.27L409.83,464.52V268.09A9.65,9.65,0,0,0,392.75,261.93Z"

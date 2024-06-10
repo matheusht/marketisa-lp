@@ -33,10 +33,13 @@ const services = [
 import { motion } from "framer-motion";
 export default function Services() {
   return (
-    <section className="min-h-[80vh] flex flex-col justify-center py-12 xl:py-0 mb-20">
+    <section
+      id="services"
+      className="min-h-[80vh] flex flex-col justify-center py-12 xl:py-0 mb-20"
+    >
       <div className="container mx-auto">
         <div className="flex items-center justify-center mb-11">
-          <h1 className="h1">Serviços</h1>
+          <h1 className="h1">O Que Fazemos</h1>
         </div>
         <motion.div
           initial={{ opacity: 0 }}

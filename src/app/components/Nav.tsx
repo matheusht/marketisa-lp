@@ -6,15 +6,15 @@ import { usePathname } from "next/navigation";
 export const links = [
   {
     name: "início",
-    path: "/",
+    path: "#header",
   },
   {
     name: "Quem Somos",
-    path: "/services",
+    path: "#history",
   },
   {
     name: "O que fazemos",
-    path: "#resume",
+    path: "#services",
   },
 ];
 

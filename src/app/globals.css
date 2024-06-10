@@ -39,6 +39,10 @@
     .text-outline-hover {
         -webkit-text-stroke: 1px #2e9cca;
     }
+
+    .custom-margin-bottom {
+        margin-bottom: -20px;
+    }
     
 }
 

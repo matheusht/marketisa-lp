@@ -11,7 +11,7 @@ import MarketisaLettermark from "../components/icons/Lettermark";
 export default function History() {
   return (
     <>
-      <section className="h-full scroll-smooth xl:scroll-auto">
+      <section id="history" className="h-full scroll-smooth xl:scroll-auto">
         <div className="container mx-auto h-full">
           <div className="flex flex-col xl:flex-row items-center justify-between xl:pt-8 xl:pb-24">
             {/* text */}

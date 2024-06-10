@@ -6,7 +6,10 @@ import MarketisaLogo from "./icons/logo";
 
 export function Header() {
   return (
-    <header className="py-8 xl:py-12 text-white z-50 absolute w-full">
+    <header
+      id="header"
+      className="py-8 xl:py-12 text-white z-50 absolute w-full"
+    >
       <div className="container mx-auto flex justify-between items-center">
         {/* logo */}
         <div>
@@ -17,7 +20,7 @@ export function Header() {
 
         <div className="hidden xl:flex items-center gap-8">
           <Nav />
-          <Link href="/contact">
+          <Link href="#footer">
             <Button>Fale conosco</Button>
           </Link>
         </div>
