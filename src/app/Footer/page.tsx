@@ -12,18 +12,21 @@ export default function Footer() {
           <MarketisaLogo width={100} />
         </div>
         <div className="flex flex-col xl:flex-row justify-between items-start mt-8 gap-8">
-          <div className="flex flex-col gap-y-4 mb-4 text-center xl:text-left">
-            <h3 className="text-[28px]">
+          <div className="flex flex-col gap-y-0 mb-4 text-center xl:text-left">
+            <h3 className="text-[28px] m-0 p-0">
               O mundo precisa conhecer o seu trabalho.
             </h3>
-            <p className="text-[24px]">
-              É o nosso trabalho fazer disso realidade.
+            <p className="text-[24px] m-0 p-0">
+              <b>É o nosso trabalho fazer disso realidade.</b>
             </p>
           </div>
-          <div className="right_items text-center xl:text-right xl:pr-20">
-            <p>Isabela Theodoro Marketing Serviços LTDA.</p>
-            <p>(44) 999830-6069 | isabelatheodoromarketing@gmail.com</p>
-            <div className="flex justify-center xl:justify-end mt-4">
+          {/* Update the right_items div for better responsiveness */}
+          <div className="right_items text-center xl:text-right xl:pr-20 w-full xl:w-auto">
+            <div className="mb-4 xl:mb-0">
+              <p>(44) 99862-5745</p>
+              <p className="mb-2">agenciamarketisa@gmail.com</p>
+            </div>
+            <div className="flex justify-center xl:justify-end mt-4 xl:mt-0">
               <Social
                 containerStyles="flex gap-6"
                 iconStyles="w-9 h-9 border border-accent rounded-full flex justify-center items-center text-accent text-base hover:bg-accent hover:text-primary hover:transition-all duration-500"

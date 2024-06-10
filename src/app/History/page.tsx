@@ -21,7 +21,7 @@ export default function History() {
                 <h1 className="h1 mb-6">
                   Hello Im <br />{" "}
                   <span className="text-accent">
-                    <MarketisaLettermark containerStyles="" />
+                    <MarketisaLettermark />
                   </span>
                 </h1>
               </div>
