@@ -5,7 +5,7 @@ import { Social } from "../components/Social";
 
 export default function Footer() {
   return (
-    <footer className="footer pt-12 xl:pt-[150px]">
+    <footer id="footer" className="footer pt-12 xl:pt-[150px]">
       <div className="bg-[#5c5c72] h-[2px]"></div>
       <div className="container mx-auto pb-12 xl:pb-[100px] px-4 md:px-8">
         <div className="flex justify-center items-center mt-12">

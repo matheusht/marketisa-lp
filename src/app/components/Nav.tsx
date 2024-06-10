@@ -14,7 +14,7 @@ export const links = [
   },
   {
     name: "O que fazemos",
-    path: "/resume",
+    path: "#resume",
   },
 ];
 
