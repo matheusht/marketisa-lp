@@ -2,8 +2,11 @@
 
 import MarketisaLogo from "../components/icons/logo";
 import { Social } from "../components/Social";
+import { useRef } from "react";
 
 export default function Footer() {
+  const footerRef = useRef<HTMLDivElement | null>(null);
+
   return (
     <footer id="footer" className="footer pt-12 xl:pt-[150px]">
       <div className="bg-[#5c5c72] h-[2px]"></div>

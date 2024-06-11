@@ -1,5 +1,4 @@
-import Link from "next/link";
-
+import { Link } from "react-scroll";
 import {
   FaYoutube,
   FaLinkedinIn,
@@ -19,7 +18,7 @@ export function Social({ containerStyles, iconStyles }: any) {
     <div className={containerStyles}>
       {socials.map((item, index) => {
         return (
-          <Link href={item.path} key={index} className={iconStyles}>
+          <Link to={item.path} key={index} className={iconStyles}>
             {item.icon}
           </Link>
         );

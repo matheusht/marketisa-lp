@@ -1,4 +1,6 @@
-import Link from "next/link";
+"use client";
+
+import { Link } from "react-scroll";
 import { Button } from "./ui/button";
 import { Nav } from "./Nav";
 import { MobileNav } from "./MobileNav";
@@ -20,7 +22,13 @@ export function Header() {
 
         <div className="hidden xl:flex items-center gap-8">
           <Nav />
-          <Link href="#footer">
+          <Link
+            to="footer"
+            smooth={true}
+            spy={true}
+            offset={50}
+            duration={1500}
+          >
             <Button>Fale conosco</Button>
           </Link>
         </div>
