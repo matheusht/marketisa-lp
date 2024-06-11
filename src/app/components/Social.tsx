@@ -7,7 +7,7 @@ import {
 } from "react-icons/fa";
 
 export const socials = [
-  { icon: <FaInstagram />, path: "https://www.instagram.com/market.iisa/" },
+  { icon: <FaInstagram />, path: "https://www.instagram.com/market.iisa" },
   { icon: <FaFacebook />, path: "/" },
   { icon: <FaLinkedinIn />, path: "/" },
   { icon: <FaYoutube />, path: "/" },
@@ -18,7 +18,7 @@ export function Social({ containerStyles, iconStyles }: any) {
     <div className={containerStyles}>
       {socials.map((item, index) => {
         return (
-          <Link to={item.path} key={index} className={iconStyles}>
+          <Link to={item.path} key={index} className={iconStyles} alt="Social">
             {item.icon}
           </Link>
         );

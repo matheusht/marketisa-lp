@@ -11,7 +11,7 @@ export default function Whatsapp() {
         id="social"
       >
         <a
-          id="social"
+          id="social_icon"
           href="https://wa.me/message/3G4TM426C2UUO1"
           target="_blank"
           rel="noreferrer"
