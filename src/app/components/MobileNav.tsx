@@ -14,8 +14,11 @@ export function MobileNav({ containerStyles, iconStyles }: any) {
   return (
     <>
       <Sheet>
-        <SheetTrigger className="flex justify-center items-center">
-          <CiMenuFries className="text-[32px] text-accent" />
+        <SheetTrigger className="flex justify-center items-center ">
+          <CiMenuFries
+            className="text-[40px] text-accent"
+            aria-label="Hamburgur Menu"
+          />
         </SheetTrigger>
         <SheetContent className="flex flex-col">
           {/* logo */}
@@ -35,13 +38,14 @@ export function MobileNav({ containerStyles, iconStyles }: any) {
                   className={`${
                     link.path === pathname &&
                     "text-accent border-b-2 border-accent"
-                  } text-xl capitalize hover:text-accent transition-all`}
+                  } text-xl capitalize hover:text-accent transition-all cursor-pointer`}
                   to={link.path}
                   key={index}
                   spy={true}
                   offset={50}
                   duration={1000}
                   smooth={true}
+                  href={link.path}
                 >
                   {link.name}
                 </Link>
@@ -53,6 +57,7 @@ export function MobileNav({ containerStyles, iconStyles }: any) {
               spy={true}
               offset={50}
               duration={1500}
+              href="#footer"
             >
               <Button>Fale conosco</Button>
             </Link>

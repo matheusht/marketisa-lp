@@ -1,6 +1,6 @@
 export function Main() {
   return (
-    <div className="main w-full h-[100vh]  mb-20">
+    <div id="main" className="main w-full h-[100vh]  mb-20">
       {/* <div className="overlay absolute top-0 left-0 w-full h-full bg-[#000000cc]"></div> */}
       <div className="m-0 p-0 absolute h-full w-full top-0 z-0 ">
         <video

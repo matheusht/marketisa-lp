@@ -22,7 +22,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="UTF-8">
+    <html lang="pt-br">
       <body className={`${inter.variable} scroll-smooth`}>
         <Header />
         <StairTransition />

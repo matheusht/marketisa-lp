@@ -28,6 +28,7 @@ export function Header() {
             spy={true}
             offset={50}
             duration={1500}
+            href="#footer"
           >
             <Button>Fale conosco</Button>
           </Link>

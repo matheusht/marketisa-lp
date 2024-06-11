@@ -33,6 +33,7 @@ export function Nav() {
             offset={50}
             duration={1000}
             smooth={true}
+            href={link.path}
             className={`${
               link.path === pathname &&
               "text-accent border-b-2 border-accent cursor-pointer"
