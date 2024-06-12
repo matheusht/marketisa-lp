@@ -4,7 +4,7 @@ import { Link } from "react-scroll";
 import { Button } from "./ui/button";
 import { Nav } from "./Nav";
 import { MobileNav } from "./MobileNav";
-import MarketisaLogo from "./icons/logo";
+import MarketisaLogoLettermark from "./icons/LogoLettermark";
 
 export function Header() {
   return (
@@ -16,7 +16,7 @@ export function Header() {
         {/* logo */}
         <div>
           <div className="absolute top-5">
-            <MarketisaLogo width={100} />
+            <MarketisaLogoLettermark />
           </div>
         </div>
 
