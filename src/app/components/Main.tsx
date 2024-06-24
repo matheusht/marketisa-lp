@@ -9,6 +9,7 @@ export function Main() {
           autoPlay
           loop
           muted
+          playsInline
         />
         <div className="absolute inset-0 flex flex-col justify-center items-center text-white z-50">
           {/* <h1 className="h1">Marketisa</h1>
