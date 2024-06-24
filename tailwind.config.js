@@ -18,14 +18,14 @@ module.exports = {
       },
     },
     fontFamily: {
-      primary: "var(--font-jetbrainsMono)",
+      primary: "var(--font-inter)",
     },
     extend: {
       colors: {
-        primary: "#1c1c22",
+        primary: "#001748",
         accent: {
-          DEFAULT: "#2e9cca",
-          hover: "#29638a"
+          DEFAULT: "#3382f1",
+          hover: "#3362f1"
         }
       },
       borderRadius: {

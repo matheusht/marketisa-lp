@@ -256,7 +256,7 @@ export default function Resume() {
                               </div>
                             </TooltipTrigger>
                             <TooltipContent>
-                              <p className="capitalize">{skill.name}</p>
+                              <p className="">{skill.name}</p>
                             </TooltipContent>
                           </Tooltip>
                         </TooltipProvider>
