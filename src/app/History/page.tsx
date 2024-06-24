@@ -17,36 +17,41 @@ export default function History() {
             {/* text */}
             <div className="text-center xl:text-left order-2 xl:order-none">
               <div className="">
-                <h1 className="h1 mb-6 text-[80px]">
+                <div className="h1 mb-6 text-[80px]">
                   Quem está
-                  <br /> <h1 className="text-[65px] ">Por Trás da</h1>
+                  <br /> <h1 className="text-[65px] ">por trás da</h1>
                   <span className="text-accent">
                     <MarketisaLettermark />
                   </span>
-                </h1>
+                </div>
               </div>
               <p className="max-w-[650px] mb-9 text-white/80">
                 Sou Isabela Theodoro, mourãoense, formada em Publicidade e
-                Propaganda pela Unicesumar em Maringá. Gosto de ressaltar que a
-                Isabela tem muitos lados: o lado família, amiga, profissional e
-                criativo. <br /> Quando criança, gostava de brincar de desenhar
-                quadros, ser artista, organizar pequenos “eventos” e, hoje, vejo
-                que sempre sonhei grande. <br /> Sempre fui apaixonada por
-                tecnologia e redes sociais. Foi justamente por isso que ganhei
-                um prêmio durante a graduação pelo melhor trabalho audiovisual.
-                Com mais de cinco anos de experiência em marketing, vendas e
-                e-commerce, mudei minha percepção sobre experiência do
-                consumidor ao fazer um curso com os métodos Disney. <br />{" "}
-                Trabalhando com marketing, entendi que os detalhes importam e
-                que pensar em estratégias, métricas e relacionamento na
-                prospecção só faz sentido quando se leva em consideração a
-                essência da marca. <br /> A Marketisa nasceu com o propósito de
-                solucionar problemas, crescer, encorajar e, principalmente,
-                mostrar que é possível fazer marketing de qualidade de uma
-                maneira autêntica. <br /> Tenho o compromisso de estar atenta ao
-                mercado, analisando tendências e me atualizando para fazer as
-                melhores entregas. Te convido a vir comigo para eu te guiar
-                nesse processo. Vamos conversar?
+                Propaganda pela Unicesumar. Gosto de ressaltar que a Isabela têm
+                muitos lados, o lado família, amiga, profissional e criativo.{" "}
+                <br />
+                Quando criança gostava de brincar de desenhar quadros, de ser
+                artista, organizar pequenos “eventos” e hoje vejo que sempre
+                sonhei grande.
+                <br />
+                Sempre gostei de tecnologia, redes sociais e foi justamente por
+                isso, que ganhei 2 prêmios durante a graduação como melhor
+                trabalho audiovisual. Com mais de cinco anos de experiência com
+                marketing, mudei minha percepção sobre experiência do consumidor
+                ao fazer um curso com métodos Disney.
+                <br />
+                Foi trabalhando com marketing que entendi que os detalhes
+                importam e que pensar em estratégias e métricas só faz sentido,
+                quando se leva em consideração a essência da marca.
+                <br />
+                E a Marketisa nasceu com o propósito de solucionar problemas,
+                encorajar e principalmente mostrar que é possível fazer
+                marketing de qualidade de uma maneira autêntica.
+                <br />
+                Meu compromisso é estar atenta ao mercado e analisar tendências
+                para fazer as melhores entregas. Te convido a vir comigo para eu
+                te guiar nesse processo.
+                <br />
               </p>
               <div className="flex flex-col xl:flex-row items-center gap-8">
                 <div className="mb-8 xl:mb-0">

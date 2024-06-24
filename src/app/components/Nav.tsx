@@ -9,7 +9,7 @@ export const links = [
     path: "header",
   },
   {
-    name: "Quem Somos",
+    name: "Quem somos",
     path: "history",
   },
   {
@@ -37,7 +37,7 @@ export function Nav() {
             className={`${
               link.path === pathname &&
               "text-accent border-b-2 border-accent cursor-pointer"
-            } capitalize font-medium hover:text-accent transition-all cursor-pointer `}
+            } font-medium hover:text-accent transition-all cursor-pointer `}
           >
             {link.name}
           </Link>

@@ -38,7 +38,7 @@ export function MobileNav({ containerStyles, iconStyles }: any) {
                   className={`${
                     link.path === pathname &&
                     "text-accent border-b-2 border-accent"
-                  } text-xl capitalize hover:text-accent transition-all cursor-pointer`}
+                  } text-xl  hover:text-accent transition-all cursor-pointer`}
                   to={link.path}
                   key={index}
                   spy={true}

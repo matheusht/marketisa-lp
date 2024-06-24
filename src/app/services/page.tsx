@@ -39,7 +39,7 @@ export default function Services() {
     >
       <div className="container mx-auto">
         <div className="flex items-center justify-center mb-11">
-          <h1 className="h1">O Que Fazemos</h1>
+          <h1 className="h1">O que fazemos</h1>
         </div>
         <motion.div
           initial={{ opacity: 0 }}

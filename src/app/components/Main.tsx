@@ -5,7 +5,7 @@ export function Main() {
       <div className="m-0 p-0 absolute h-full w-full top-0 z-0 ">
         <video
           className="w-full h-full object-cover"
-          src="/assets/videoBg.mp4"
+          src="/assets/carlos.mp4"
           autoPlay
           loop
           muted
