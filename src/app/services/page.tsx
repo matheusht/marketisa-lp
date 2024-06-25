@@ -5,27 +5,32 @@ import Link from "next/link";
 
 const services = [
   {
-    num: "01",
-    title: "Web Development",
-    description: "Lorem ipsum dolor sit amet consectetur adipisicing.",
+    num: "",
+    title: "Desenvolvimento de Marca",
+    description:
+      "Criamos a identidade da sua marca com estratégia, estudo e personalização. Desde o logo até o tom de voz da sua marca, queremos que a comunicação e o posicionamento sejam impactantes e longe do clichê.",
     href: "",
   },
   {
-    num: "02",
-    title: "UI/UX Design",
-    description: "Lorem ipsum dolor sit amet consectetur adipisicing.",
+    num: "",
+    title: "Conteúdos Estratégicos",
+    description:
+      "Com sua marca estabelecida, desenvolvemos conteúdos estratégicos para alcançar seu público-alvo. Oferecemos uma entrega completa que inclui a definição de estratégias em um calendário, gravação e edição de vídeos/fotos, criação de legendas e postagem nas plataformas mais relevantes para o seu negócio.",
     href: "",
   },
   {
-    num: "03",
-    title: "Logo Design",
-    description: "Lorem ipsum dolor sit amet consectetur adipisicing.",
+    num: "",
+    title: "Organização de Eventos",
+    description:
+      "Usando os metódos Disney ao nosso favor, planejamos e organizamos eventos que proporcionam uma experiência marcante ao seu público. Cada detalhe é pensado para garantir que a comunicação da sua marca seja clara e eficaz.",
+
     href: "",
   },
   {
-    num: "04",
-    title: "SEO",
-    description: "Lorem ipsum dolor sit amet consectetur adipisicing.",
+    num: "",
+    title: "Soluções de Marketing Personalizadas",
+    description:
+      "Se além dos serviços anteriores apresentados você quer mais, então, esse é o nosso queridinho. Atendemos sua necessidade quanto a comunicação, desde a contratação de serviços de outdoor com textos e imagens impactantes até personalização de brinde para o lançamento da sua marca, estamos aqui para ajudar sua empresa a se destacar. Com a Marketisa, você sai da caixa e se conecta de forma inovadora com seu público.",
     href: "",
   },
 ];
@@ -39,7 +44,7 @@ export default function Services() {
     >
       <div className="container mx-auto">
         <div className="flex items-center justify-center mb-11">
-          <h1 className="h1">O que fazemos</h1>
+          <h1 className="h1"> O que fazemos</h1>
         </div>
         <motion.div
           initial={{ opacity: 0 }}

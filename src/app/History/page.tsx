@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 "use client";
 
 import { Photo } from "../components/Photo";
@@ -19,39 +20,38 @@ export default function History() {
               <div className="">
                 <div className="h1 mb-6 text-[80px]">
                   Quem está
-                  <br /> <h1 className="text-[65px] ">por trás da</h1>
+                  <br /> <h1 className="text-[80px] ">Por trás da</h1>
                   <span className="text-accent">
                     <MarketisaLettermark />
                   </span>
                 </div>
               </div>
               <p className="max-w-[650px] mb-9 text-white/80">
-                Sou Isabela Theodoro, mourãoense, formada em Publicidade e
-                Propaganda pela Unicesumar. Gosto de ressaltar que a Isabela têm
-                muitos lados, o lado família, amiga, profissional e criativo.{" "}
+                Sou Isabela Theodoro, ou pode me chamar de "<b>Isa</b>". Formada
+                em Publicidade e dona da Marketisa. Trabalhei com clientes de
+                diversos segmentos em agências e no departamento de Marketing de
+                empresas de moda, gastronomia e educação.
                 <br />
-                Quando criança gostava de brincar de desenhar quadros, de ser
-                artista, organizar pequenos “eventos” e hoje vejo que sempre
-                sonhei grande.
                 <br />
-                Sempre gostei de tecnologia, redes sociais e foi justamente por
-                isso, que ganhei 2 prêmios durante a graduação como melhor
-                trabalho audiovisual. Com mais de cinco anos de experiência com
-                marketing, mudei minha percepção sobre experiência do consumidor
-                ao fazer um curso com métodos Disney.
+                Tenho muitos lados: o lado família, amiga, profissional e
+                criativo. Quando criança, adorava desenhar quadros no piso de
+                casa e organizar “eventos” como um jantar numa quarta qualquer.
+                Desde então, percebo que <b>sempre sonhei grande</b>. Ao longo
+                da minha trajetória, ganhei dois prêmios de melhor trabalho
+                audiovisual. Porém, minha visão mudou completamente quando
+                conheci os <b>métodos Disney</b> sobre a{" "}
+                <b>experiência do consumidor e encantamento</b>. Percebi que não
+                existe fórmula mágica para <b>comunicar</b>, porque essa não é
+                uma ciência exata — e ainda bem que não é.
                 <br />
-                Foi trabalhando com marketing que entendi que os detalhes
-                importam e que pensar em estratégias e métricas só faz sentido,
-                quando se leva em consideração a essência da marca.
+                <br />A verdadeira essência do Marketing está na conexão com os
+                clientes e esse é o propósito da Marketisa. Te convido a vir
+                comigo para eu te guiar nesse processo.
                 <br />
-                E a Marketisa nasceu com o propósito de solucionar problemas,
-                encorajar e principalmente mostrar que é possível fazer
-                marketing de qualidade de uma maneira autêntica.
-                <br />
-                Meu compromisso é estar atenta ao mercado e analisar tendências
-                para fazer as melhores entregas. Te convido a vir comigo para eu
-                te guiar nesse processo.
-                <br />
+                <b>
+                  O mundo precisa conhecer o seu trabalho. E é nosso trabalho
+                  fazer disso realidade.
+                </b>
               </p>
               <div className="flex flex-col xl:flex-row items-center gap-8">
                 <div className="mb-8 xl:mb-0">
