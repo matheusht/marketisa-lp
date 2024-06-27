@@ -8,9 +8,8 @@ import {
 
 export const socials = [
   { icon: <FaInstagram />, path: "https://www.instagram.com/market.iisa" },
-  { icon: <FaFacebook />, path: "/" },
-  { icon: <FaLinkedinIn />, path: "/" },
-  { icon: <FaWhatsapp />, path: "/" },
+  // { icon: <FaLinkedinIn />, path: "/" },
+  { icon: <FaWhatsapp />, path: "https://wa.me/5544998625745" },
 ];
 
 export function Social({ containerStyles, iconStyles }: any) {

@@ -2,6 +2,7 @@
 
 import { BsArrowDownRight } from "react-icons/bs";
 import Link from "next/link";
+import { motion } from "framer-motion";
 
 const services = [
   {
@@ -23,7 +24,6 @@ const services = [
     title: "Organização de Eventos",
     description:
       "Usando os metódos Disney ao nosso favor, planejamos e organizamos eventos que proporcionam uma experiência marcante ao seu público. Cada detalhe é pensado para garantir que a comunicação da sua marca seja clara e eficaz.",
-
     href: "",
   },
   {
@@ -35,7 +35,6 @@ const services = [
   },
 ];
 
-import { motion } from "framer-motion";
 export default function Services() {
   return (
     <section
@@ -44,7 +43,7 @@ export default function Services() {
     >
       <div className="container mx-auto">
         <div className="flex items-center justify-center mb-11">
-          <h1 className="h1"> O que fazemos</h1>
+          <h1 className="h1 text-center"> O que fazemos</h1>
         </div>
         <motion.div
           initial={{ opacity: 0 }}
@@ -58,20 +57,20 @@ export default function Services() {
             return (
               <div
                 key={index}
-                className="flex-1 flex flex-col justify-center gap-6 group"
+                className="flex-1 flex flex-col justify-between gap-6 group p-4  border-white/20 rounded-lg"
               >
-                <div className="w-full flex justify-between items-center">
+                <div className="flex justify-between items-center">
                   <div className="text-5xl font-extrabold text-outline text-transparent group-hover:text-outline-hover transition-all duration-500">
                     {service.num}
                   </div>
-                  <Link
+                  {/* <Link
                     href={service.href}
                     className="w-[70px] h-[70px] rounded-full bg-white group-hover:bg-accent transition-all duration-500 flex justify-center items-center hover:-rotate-45"
                   >
                     <BsArrowDownRight className="text-primary text-3xl" />
-                  </Link>
+                  </Link> */}
                 </div>
-                <h2 className="text-[42px] font-bold leading-none text-white group-hover:text-accent transition-all duration-500">
+                <h2 className="text-[42px] font-bold leading-none text-white group-hover:text-accent transition-all duration-500 text-center">
                   {service.title}
                 </h2>
                 <p>{service.description}</p>

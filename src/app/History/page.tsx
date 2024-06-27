@@ -18,9 +18,10 @@ export default function History() {
             {/* text */}
             <div className="text-center xl:text-left order-2 xl:order-none">
               <div className="">
-                <div className="h1 mb-6 text-[80px]">
+                <div className="h1 mb-6 text-[60px] xl:text-[80px]">
                   Quem está
-                  <br /> <h1 className="text-[80px] ">Por trás da</h1>
+                  <br />{" "}
+                  <h1 className=" text-[60px] xl:text-[80px] ">Por trás da</h1>
                   <span className="text-accent">
                     <MarketisaLettermark />
                   </span>
@@ -62,8 +63,8 @@ export default function History() {
                 </div>
               </div>
             </div>
-            <div>{/* photo */}</div>
-            <div className="order-1 xl:order-none mb-8 xl:mb-0">
+            <div>{/* spacer */}</div>
+            <div className="order-1 xl:order-none mb-8 xl:mb-0 xl:ml-[-50px]">
               <Photo />
             </div>
           </div>
