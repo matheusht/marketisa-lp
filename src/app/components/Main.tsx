@@ -5,7 +5,7 @@ export function Main() {
       <div className="m-0 p-0 absolute h-full w-full top-0 z-0 ">
         <video
           className="w-full h-full object-cover"
-          src="/assets/MarketisaVideo.mp4"
+          src="/assets/MarketisaVideo.MP4"
           autoPlay
           loop
           muted

@@ -7,7 +7,10 @@ import {
 } from "react-icons/fa";
 
 export const socials = [
-  { icon: <FaInstagram />, path: "https://www.instagram.com/market.iisa" },
+  {
+    icon: <FaInstagram />,
+    path: "https://www.instagram.com/agenciamarketisa/",
+  },
   // { icon: <FaLinkedinIn />, path: "/" },
   { icon: <FaWhatsapp />, path: "https://wa.me/5544998625745" },
 ];
