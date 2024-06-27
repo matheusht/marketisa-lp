@@ -1,5 +1,6 @@
 "use client";
 
+import { Link } from "react-scroll";
 import MarketisaLogo from "../components/icons/logo";
 import { Social } from "../components/Social";
 import { useRef } from "react";
@@ -12,7 +13,16 @@ export default function Footer() {
       <div className="bg-[#5c5c72] h-[2px]"></div>
       <div className="container mx-auto pb-12 xl:pb-[100px] px-4 md:px-8">
         <div className="flex justify-center items-center mt-12">
-          <MarketisaLogo width={100} />
+          <Link
+            to="main"
+            smooth={true}
+            spy={true}
+            offset={50}
+            duration={750}
+            href="#main"
+          >
+            <MarketisaLogo width={100} />
+          </Link>
         </div>
         <div className="flex flex-col xl:flex-row justify-between items-start mt-8 gap-8">
           <div className="flex flex-col gap-y-0 mb-4 text-center xl:text-left">
