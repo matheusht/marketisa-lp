@@ -24,6 +24,7 @@ export default function RootLayout({
   return (
     <html lang="pt-br">
       <body className={`${inter.variable} scroll-smooth`}>
+        <link rel="icon" href="/favicons/favicon.ico" />
         <Header />
         <StairTransition />
         <PageTransition>{children}</PageTransition>

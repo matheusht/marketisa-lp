@@ -1,4 +1,4 @@
-import { Link } from "react-scroll";
+import Link from "next/link";
 import {
   FaWhatsapp,
   FaLinkedinIn,
@@ -18,11 +18,10 @@ export function Social({ containerStyles, iconStyles }: any) {
       {socials.map((item, index) => {
         return (
           <Link
-            to={item.path}
             key={index}
             className={iconStyles}
-            alt="Social"
             href={item.path}
+            target="_blank"
           >
             {item.icon}
           </Link>
