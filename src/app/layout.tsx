@@ -24,6 +24,7 @@ export default function RootLayout({
   return (
     <html lang="pt-br">
       <body className={`${inter.variable} scroll-smooth`}>
+        <div className="fixed top-0 " id="main" />
         <link rel="icon" href="/favicons/favicon.ico" />
         <Header />
         <StairTransition />

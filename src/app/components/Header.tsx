@@ -8,10 +8,7 @@ import MarketisaLogoLettermark from "./icons/LogoLettermark";
 
 export function Header() {
   return (
-    <header
-      id="header"
-      className="py-8 xl:py-12 text-white z-50 absolute w-full"
-    >
+    <header className="py-8 xl:py-12 text-white z-50 absolute w-full">
       <div className="container mx-auto flex justify-between items-center">
         {/* logo */}
         <div>
