@@ -1,6 +1,11 @@
 "use client";
 
-import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
+import {
+  Sheet,
+  SheetClose,
+  SheetContent,
+  SheetTrigger,
+} from "@/components/ui/sheet";
 import { usePathname } from "next/navigation";
 import { Link } from "react-scroll";
 import { CiMenuFries } from "react-icons/ci";
@@ -8,6 +13,7 @@ import { links } from "./Nav";
 import MarketisaLogo from "./icons/logo";
 import { Social, socials } from "./Social";
 import { Button } from "./ui/button";
+import { useState } from "react";
 export function MobileNav({ containerStyles, iconStyles }: any) {
   const pathname = usePathname();
 
@@ -34,21 +40,23 @@ export function MobileNav({ containerStyles, iconStyles }: any) {
           <nav className=" flex flex-col justify-center items-center gap-8">
             {links.map((link, index) => {
               return (
-                <Link
-                  className={`${
-                    link.path === pathname &&
-                    "text-accent border-b-2 border-accent"
-                  } text-xl  hover:text-accent transition-all cursor-pointer`}
-                  to={link.path}
-                  key={index}
-                  spy={true}
-                  offset={50}
-                  duration={1000}
-                  smooth={true}
-                  href={link.path}
-                >
-                  {link.name}
-                </Link>
+                <SheetClose key={index} asChild>
+                  <Link
+                    className={`${
+                      link.path === pathname &&
+                      "text-accent border-b-2 border-accent"
+                    } text-xl  hover:text-accent transition-all cursor-pointer`}
+                    to={link.path}
+                    spy={true}
+                    offset={50}
+                    duration={1000}
+                    smooth={true}
+                    href={link.path}
+                    type="submit"
+                  >
+                    {link.name}
+                  </Link>
+                </SheetClose>
               );
             })}
             <Link
